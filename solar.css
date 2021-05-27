@@ -1,17 +1,3 @@
-/* generic colors for dark mode */
-.theme-dark {
-  --text-muted: #8c9097;
-  --background-primary: #292841;
-  --background-secondary: #201f35;
-  --background-secondary-alt: #1f1e31;
-  --background-tertiary: #18172d;
-  --background-floating: #1e1d35;
-  --channeltextarea-background: #302e4d;
-  --scrollbar-thin-thumb: #141321;
-  --scrollbar-auto-thumb: #1c1b29;
-  --scrollbar-auto-track: #141321;
-}
-
 /* generic colors for light mode */
 .theme-light {
   --text-muted: #5a5a6d;
@@ -26,25 +12,69 @@
   --scrollbar-auto-track: #f0ece0;
 }
 
+/* generic colors for dark mode */
+.theme-dark {
+  --text-muted: #8c9097;
+  --background-primary: #292841;
+  --background-secondary: #201f35;
+  --background-secondary-alt: #181726;
+  --background-tertiary: #18172d;
+  --background-floating: #1e1d35;
+  --channeltextarea-background: #302e4d;
+  --scrollbar-thin-thumb: #14132061;
+  --scrollbar-auto-thumb: #181726;
+  --scrollbar-auto-track: #201f35;
+}
+
 /* forces the friends collumn to change */
-.dark-theme .theme-light .peopleColumn-29fq28 {
+.theme-light .peopleColumn-29fq28 {
+	background-color: var(--background-primary);
+}
+.theme-dark .peopleColumn-29fq28 {
 	background-color: var(--background-primary);
 }
 
 /* forces the emoji picker to change */
-.dark-theme .theme-light .autocomplete-1vrmpx {
+.theme-light .autocomplete-1vrmpx {
+  background-color: var(--background-secondary);
+}
+.theme-dark .autocomplete-1vrmpx {
   background-color: var(--background-secondary);
 }
 
-.dark-theme .theme-light .selected-1Tbx07 {
+.theme-light .selected-1Tbx07 {
+    background-color: var(--background-tertiary);
+}
+.theme-dark .selected-1Tbx07 {
     background-color: var(--background-tertiary);
 }
 
 /* forces the upload modal to change */
-.dark-theme .theme-light .uploadModal-2ifh8j {
+.theme-light .uploadModal-2ifh8j {
+  background: var(--background-primary);
+}
+.theme-dark .uploadModal-2ifh8j {
   background: var(--background-primary);
 }
 
-.dark-theme .theme-light .footer-3mqk7D {
+.theme-light .footer-3mqk7D {
+  background-color: var(--background-secondary);
+}
+.theme-dark .footer-3mqk7D {
+  background-color: var(--background-secondary);
+}
+
+/* forces the gift modal to change */
+.theme-light .root-1gCeng {
+  background: var(--background-primary);
+}
+.theme-dark .root-1gCeng  {
+  background: var(--background-primary);
+}
+
+.theme-light .footer-2gL1pp {
+  background-color: var(--background-secondary);
+}
+.theme-dark .footer-2gL1pp {
   background-color: var(--background-secondary);
 }

@@ -1,2 +1,4 @@
-# Penny's Landing Theme
-A theme for Powercord based on the colors found on the [landing page](https://discord.com/)
+# Solar
+A solarized theme for Discord, inspired by the [Discord landing page](https://discord.com/).
+
+Compatible with Light mode and Dark mode.

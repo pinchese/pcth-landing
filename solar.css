@@ -1,3 +1,4 @@
+/* generic colors for dark mode */
 .theme-dark {
   --text-muted: #8c9097;
   --background-primary: #292841;
@@ -11,6 +12,7 @@
   --scrollbar-auto-track: #141321;
 }
 
+/* generic colors for light mode */
 .theme-light {
   --text-muted: #5a5a6d;
   --background-primary: #fff7eb;
@@ -22,4 +24,27 @@
   --scrollbar-thin-thumb: #5c5b4f2b;
   --scrollbar-auto-thumb: #e7e2d5;
   --scrollbar-auto-track: #f0ece0;
+}
+
+/* forces the friends collumn to change */
+.dark-theme .theme-light .peopleColumn-29fq28 {
+	background-color: var(--background-primary);
+}
+
+/* forces the emoji picker to change */
+.dark-theme .theme-light .autocomplete-1vrmpx {
+  background-color: var(--background-secondary);
+}
+
+.dark-theme .theme-light .selected-1Tbx07 {
+    background-color: var(--background-tertiary);
+}
+
+/* forces the upload modal to change */
+.dark-theme .theme-light .uploadModal-2ifh8j {
+  background: var(--background-primary);
+}
+
+.dark-theme .theme-light .footer-3mqk7D {
+  background-color: var(--background-secondary);
 }

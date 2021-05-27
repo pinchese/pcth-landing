@@ -1,0 +1,25 @@
+.theme-dark {
+  --text-muted: #8c9097;
+  --background-primary: #292841;
+  --background-secondary: #201f35;
+  --background-secondary-alt: #1f1e31;
+  --background-tertiary: #18172d;
+  --background-floating: #1e1d35;
+  --channeltextarea-background: #302e4d;
+  --scrollbar-thin-thumb: #141321;
+  --scrollbar-auto-thumb: #1c1b29;
+  --scrollbar-auto-track: #141321;
+}
+
+.theme-light {
+  --text-muted: #5a5a6d;
+  --background-primary: #fff7eb;
+  --background-secondary: #f6f0e5;
+  --background-secondary-alt: #ede7d4;
+  --background-tertiary: #e6ddd1;
+  --background-floating: #f2ecde;
+  --channeltextarea-background: #f0e9e0;
+  --scrollbar-thin-thumb: #5c5b4f2b;
+  --scrollbar-auto-thumb: #e7e2d5;
+  --scrollbar-auto-track: #f0ece0;
+}

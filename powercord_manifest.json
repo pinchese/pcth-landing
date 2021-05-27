@@ -1,8 +1,8 @@
 {
-  "name": "Landing",
+  "name": "Solar",
   "version": "1.0.0",
   "author": "pinchese",
   "license": "GNU General Public License",
-  "theme": "landing.css",
-  "description": "a theme for powercord based on the colors found on the discord website"
+  "theme": "solar.css",
+  "description": "A solarized theme for Discord, inspired by the Discord landing page."
 }

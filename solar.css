@@ -78,3 +78,8 @@
 .theme-dark .footer-2gL1pp {
   background-color: var(--background-secondary);
 }
+
+/* changes the color of the home button */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  color: #f6be11;
+}

@@ -109,11 +109,11 @@
   background: var(--background-tertiary);
 }
 
-.theme-light .option-96V44q.selected-rZcOL-:after
+.theme-light .option-96V44q.selected-rZcOL-:after {
   background: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
 }
 
-.theme-dark .option-96V44q.selected-rZcOL-:after
+.theme-dark .option-96V44q.selected-rZcOL-:after {
   background: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
 }
 

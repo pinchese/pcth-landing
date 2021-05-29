@@ -136,3 +136,11 @@
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43 {
   color: #4d5667;
 }
+
+.theme-light .queryContainer-RKFJW- {
+ color: var(--background-floating);
+}
+
+.theme-dark .queryContainer-RKFJW- {
+ color: var(--background-floating);
+}

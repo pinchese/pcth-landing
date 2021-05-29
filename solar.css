@@ -83,3 +83,56 @@
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: #f6be11;
 }
+
+/* fixes the search menu */
+.theme-light .container-3ayLPN {
+  background-color: var(--background-floating);
+}
+
+.theme-dark .container-3ayLPN {
+  background-color: var(--background-floating);
+}
+
+.theme-light .option-96V44q.selected-rZcOL- {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+  background-color: var(--background-tertiary);
+}
+
+.theme-light .option-96V44q.selected-rZcOL-:after
+  background-color: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after
+  background-color: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
+}
+
+.theme-light .option-96V44q:after {
+  background-color: linear-gradient(90deg,hsla(0,0%,100%,0), var(--background-floating) 80%);
+}
+
+.theme-dark .option-96V44q:after {
+  background-color: linear-gradient(90deg,hsla(0,0%,100%,0), var(--background-floating) 80%);
+}
+
+.theme-light .resultsGroup-r_nuzN .header-2N-gMV, .theme-light .resultsGroup-r_nuzN .plusIcon-v0BTrL, .theme-light .resultsGroup-r_nuzN .searchClearHistory-2cSSMO, .theme-light .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a {
+  color: #737373;
+}
+
+.theme-light .option-96V44q.user-O3Czj0 .displayUsername-Qekxml {
+  color: #b5afa6;
+}
+
+.theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
+  color: #b5afa6;
+}
+
+.theme-light .focused-2bY0OD {
+  background-color: var(--background-floating);
+}
+
+.theme-dark .focused-2bY0OD {
+  background-color: var(--background-floating);
+}

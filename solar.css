@@ -138,9 +138,9 @@
 }
 
 .theme-light .queryContainer-RKFJW- {
- color: var(--background-floating);
+ background-color: var(--background-floating);
 }
 
 .theme-dark .queryContainer-RKFJW- {
- color: var(--background-floating);
+ background-color: var(--background-floating);
 }

@@ -102,7 +102,7 @@
 }
 
 .theme-light .option-96V44q.selected-rZcOL-:after
-  background-color: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
+  background: linear-gradient(90deg,rgba(246,246,247,0), var(--background-tertiary) 50%);
 }
 
 .theme-dark .option-96V44q.selected-rZcOL-:after
@@ -110,7 +110,7 @@
 }
 
 .theme-light .option-96V44q:after {
-  background-color: linear-gradient(90deg,hsla(0,0%,100%,0), var(--background-floating) 80%);
+  background: linear-gradient(90deg,hsla(0,0%,100%,0), var(--background-floating) 80%);
 }
 
 .theme-dark .option-96V44q:after {
@@ -127,12 +127,4 @@
 
 .theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
   color: #b5afa6;
-}
-
-.theme-light .focused-2bY0OD {
-  background-color: var(--background-floating);
-}
-
-.theme-dark .focused-2bY0OD {
-  background-color: var(--background-floating);
 }

@@ -94,11 +94,11 @@
 }
 
 .theme-light .option-96V44q.selected-rZcOL- {
-  background-color: var(--background-tertiary);
+  background: var(--background-tertiary);
 }
 
 .theme-dark .option-96V44q.selected-rZcOL- {
-  background-color: var(--background-tertiary);
+  background: var(--background-tertiary);
 }
 
 .theme-light .option-96V44q.selected-rZcOL-:after

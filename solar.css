@@ -43,6 +43,14 @@
 	background-color: var(--background-primary);
 }
 
+.theme-light .container-1D34oG {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .container-1D34oG {
+  background-color: var(--background-tertiary);
+}
+
 /* forces the emoji picker to change */
 .theme-light .autocomplete-1vrmpx {
 	background-color: var(--background-secondary);

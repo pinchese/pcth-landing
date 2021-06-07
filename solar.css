@@ -1,6 +1,7 @@
 /* global variables */
 :root {
 	--field-button-disabled-opacity: 20%;
+	--background-accent: #586e75;
 }
 
 /* variables for light mode */
@@ -18,6 +19,7 @@
 	--field-button: #e6e0d0;
 	--field-button-hover-darkness: hsl(44, 31%, 80%, 1);
 	--deprecated-card-bg: #fff7eb;
+	--deprecated-quickswitcher-input-background: #e6e0d0;
 }
 
 /* variables for dark mode */
@@ -35,6 +37,8 @@
 	--field-button: #002b36;
 	--field-button-hover-darkness: hsl(192, 100%, 8%, 1);
 	--deprecated-card-bg: #073642;
+	--deprecated-quickswitcher-input-background: #06313c;
+
 }
 
 /* forces the friends collumn to change */
@@ -232,3 +236,4 @@
 .theme-dark .tierBody-16Chc9 {
 	background-color: var(--background-primary);
 }
+

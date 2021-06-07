@@ -10,41 +10,47 @@
 	--background-secondary: #f6f0e5;
 	--background-secondary-alt: #f1eddf;
 	--background-tertiary: #e6e0d0;
-	--background-floating: #f2ecde;
+	--background-floating: #fff7eb;
 	--channeltextarea-background: #f0e9e0;
 	--scrollbar-thin-thumb: #5c5b4f2b;
 	--scrollbar-auto-thumb: #e7e2d5;
 	--scrollbar-auto-track: #f0ece0;
 	--field-button: #e6e0d0;
 	--field-button-hover-darkness: hsl(44, 31%, 80%, 1);
+	--deprecated-card-bg: #fff7eb;
 }
 
 /* variables for dark mode */
 .theme-dark {
 	--text-muted: #8c9097;
-	--background-primary: #292841;
-	--background-secondary: #201f35;
-	--background-secondary-alt: #1e1d30;
-	--background-tertiary: #18172d;
-	--background-floating: #1d1d35;
-	--channeltextarea-background: #302e4d;
-	--scrollbar-thin-thumb: #14132061;
-	--scrollbar-auto-thumb: #181726;
-	--scrollbar-auto-track: #201f35;
-	--field-button: #18172d;
-	--field-button-hover-darkness: hsl(243, 32%, 9%, 1);
+	--background-primary: #073642;
+	--background-secondary: #073945;
+	--background-secondary-alt: #06313c;
+	--background-tertiary: #002b36;
+	--background-floating: #073642;
+	--channeltextarea-background: #002b36;
+	--scrollbar-thin-thumb: #073945;
+	--scrollbar-auto-thumb: #06313c;
+	--scrollbar-auto-track: #073945;
+	--field-button: #002b36;
+	--field-button-hover-darkness: hsl(192, 100%, 8%, 1);
+	--deprecated-card-bg: #073642;
 }
 
 /* forces the friends collumn to change */
+
+/* light mode */
 .theme-light .peopleColumn-29fq28 {
-	background-color: var(--background-primary);
-}
-.theme-dark .peopleColumn-29fq28 {
 	background-color: var(--background-primary);
 }
 
 .theme-light .container-1D34oG {
   background-color: var(--background-tertiary);
+}
+
+/* dark mode */
+.theme-dark .peopleColumn-29fq28 {
+	background-color: var(--background-primary);
 }
 
 .theme-dark .container-1D34oG {
@@ -189,4 +195,40 @@
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
 	background-color: var(--field-button);
 	opacity: var(--field-button-disabled-opacity);
+}
+
+.theme-light .codeRedemptionRedirect-1wVR4b {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+	background-color: var(--background-primary);
+}
+
+/* fixes the server boost view */
+
+/* light mode */
+.theme-light .perksModal-fSYqOq {
+	background-color: var(--background-primary);
+}
+
+.theme-light .tierHeaderLocked-1s2JJz {
+	background-color: var(--background-secondary);
+}
+
+.theme-light .tierBody-16Chc9 {
+	background-color: var(--background-primary);
+}
+
+/* dark mode */
+.theme-dark .perksModal-fSYqOq {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .tierHeaderLocked-1s2JJz {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .tierBody-16Chc9 {
+	background-color: var(--background-primary);
 }

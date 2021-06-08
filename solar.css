@@ -237,3 +237,11 @@
 	background-color: var(--background-primary);
 }
 
+/* fixes the unthemed background for the gif picker */
+.theme-light .container-3ISnnM {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .container-3ISnnM {
+	background-color: var(--background-secondary);
+}

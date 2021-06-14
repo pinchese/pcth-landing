@@ -245,3 +245,21 @@
 .theme-dark .container-3ISnnM {
 	background-color: var(--background-secondary);
 }
+
+/* fixes the stream preview modal */
+.theme-dark .streamPreview-2-WUWT {
+	background-color: var(--background-floating);
+}
+
+.theme-light .streamPreview-2-WUWT {
+	background-color: var(--background-floating);
+}
+
+/* changes the background color of the discovery list */
+.theme-light .pageWrapper-1PgVDX {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+	background-color: var(--background-primary);
+}

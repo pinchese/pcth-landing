@@ -306,3 +306,7 @@
     background-color: var(--background-secondary);
 }
 
+/* inline code background */
+.markup-2BOw-j code {
+    background: var(--background-tertiary);
+}
